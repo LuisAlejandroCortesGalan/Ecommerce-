@@ -71,4 +71,4 @@ $conn = null;
 $insert = null;
 $select = null;
 
-header('location: ecommerce.php');
+// header('location: ecommerce.php');

@@ -19,9 +19,9 @@ $result = $query->fetch();
 // POR SI EL LOGIN NO ES CORRECTO
 if (!$result) {
     echo "El usuario o contraseña incorrectos";
-    header('location: ecommerce.php');
+    // header('location: ecommerce.php');
 
-    // die();
+    die();
 }
 
 
@@ -32,6 +32,8 @@ if (password_verify($password_user, $password_hash)) {
     // echo "Usuario y contraseña correcto";
     $_SESSION['nombre_cliente'] = $result['nombre_cliente'];
     $_SESSION['apellido_cliente'] = $result['apellido_cliente'];
+    // echo 'usuario: '.$_SESSION['nombre_cliente'];
+
     header('location: ecommerce.php');
 } else {
     echo "Usuario o contraseña incorrectos";
