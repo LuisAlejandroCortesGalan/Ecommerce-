@@ -83,6 +83,8 @@ input {
     width: 400px;
     margin: 10px auto;
     border-radius: 10px;
+    font-size: 20px;
+    color: black;
 }
 
 input:hover {

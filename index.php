@@ -26,7 +26,7 @@
                     </div>
                     <div>
                         <label for="password">Contraseña </label>
-                        <input type="text" name="password" id="password" />
+                        <input type="password" name="password" id="password" />
                     </div>
                     <div class="div_botones">
                         <button type="submit" class="botones">Acceder</button>

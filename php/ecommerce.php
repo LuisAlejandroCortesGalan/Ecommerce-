@@ -1,5 +1,8 @@
 <?php
 
+session_start();
+
 require_once('connection.php');
 
-echo "Bienvenido, Esto sera el ecommerce";
+echo "Hola".$_SESSION['nombre_cliente']." ".$_SESSION['apellido_cliente'];
+;
