@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Lugrasimo";}
+    font-family: "Lugrasimo";
+    color: white;
+}
+    
 
 body {
     background-image: url(../img/fondo_fruteria.jpg);
@@ -32,7 +35,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px grey solid;
+    border: 2px white solid;
     border-radius: 15px;
 }
 
@@ -81,6 +84,7 @@ button {
     font-weight: bold;
     font-size: 15px;
     border-radius: 10px;
+    color: black;
 }
 
 button:hover {
@@ -114,6 +118,7 @@ button:hover {
     width: 600px;
     padding: 40px;
     margin: 20px auto;
+    border: 2px white solid;
 }
 
 .form2 input {
@@ -134,4 +139,5 @@ legend {
     font-weight: bold;
     font-size: 17px;
     border-radius: 10px;
+    color: black;
 }
