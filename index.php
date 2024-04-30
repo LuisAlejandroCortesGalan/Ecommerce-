@@ -14,7 +14,7 @@
 <body>
     <div class="contenedor">
         <header>
-            <h1>Tutti Frutti</h1>
+            <h1 class="rainbow-text">Tutti Frutti</h1>
         </header>
         <main>
             <section id="signin">
